@@ -15,8 +15,7 @@ terraform {
 provider "azurerm" {
   features {}
   # Auth comes from Terraform Cloud dynamic credentials (OIDC)
-  subscription_id = var.subscription_id
-  tenant_id       = var.tenant_id
+
 }
 
 # Resource Group
